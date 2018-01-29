@@ -20,13 +20,10 @@ function currentLine (katzDeliLine){
     return "The line is currently empty."
   }
   else{
-    var sentenceEnd = "";
     console.log("preloop");
     console.log(katzDeliLine);
     for (let i = 0; i < katzDeliLine.length; i++){
-      var current = i+1;
-      sentenceEnd = sentenceEnd + current;
-      console.log("reached loop");
+      sentenceEnd += current;
     }
     sentence += sentenceEnd;
     console.log(sentence);
