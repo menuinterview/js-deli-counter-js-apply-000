@@ -22,10 +22,11 @@ function currentLine (katzDeliLine){
   else{
     var sentenceEnd = "";
     console.log("preloop");
-    var i = 0;
+    for (let i = 0; i++; i < katzDeliLine.length){
       var current = i+1;
       sentenceEnd = sentenceEnd + current;
       console.log("reached loop");
+    }
     sentence += sentenceEnd;
     console.log(sentence);
     return sentence
