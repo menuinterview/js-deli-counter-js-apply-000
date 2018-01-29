@@ -23,7 +23,7 @@ function currentLine (katzDeliLine){
     var sentenceEnd = "";
     console.log("preloop");
     console.log(katzDeliLine);
-    for (let i = 0; i++; i < katzDeliLine.length){
+    for (let i = 0; i++; i < katzDeliLine.length;){
       var current = i+1;
       sentenceEnd = sentenceEnd + current;
       console.log("reached loop");
