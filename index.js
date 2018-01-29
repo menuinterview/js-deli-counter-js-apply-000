@@ -15,15 +15,15 @@ function nowServing (katzDeliLine){
 }
 
 function currentLine (katzDeliLine){
-  var sentence = "The line is currently: ";
+
   if (katzDeliLine.length === 0){
     return "The line is currently empty."
   }
   else{
+    var sentence = "The line is currently: ";
     console.log("preloop");
-    console.log(katzDeliLine);
     for (let i = 0; i < katzDeliLine.length; i++){
-      sentenceEnd += current;
+      sentenceEnd += (i+1);
     }
     sentence += sentenceEnd;
     console.log(sentence);
