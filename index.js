@@ -10,7 +10,6 @@ function nowServing (katzDeliLine){
   } else {
     var next = katzDeliLine.shift();
     //shifts array to the left 1 space, removing first space
-   // katzDeliLine.shift();
     return `Currently serving ${next}.`;
   }
 }
