@@ -21,12 +21,11 @@ function currentLine (katzDeliLine){
   }
   else{
     var sentence = "The line is currently: ";
-    console.log("preloop");
     for (let i = 0; i < katzDeliLine.length; i++){
-      sentence += (i+1) + ". " + katzDeliLine[i];
+      //sentence += (i+1) + ". " + katzDeliLine[i];
+      sentence += `${i+1). ${katzDeliLine[i]`;
       if (katzDeliLine.length - i > 1){sentence+= ", ";}
     }
-    console.log(sentence);
     return sentence
   }
 }
