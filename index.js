@@ -23,9 +23,8 @@ function currentLine (katzDeliLine){
     var sentence = "The line is currently: ";
     console.log("preloop");
     for (let i = 0; i < katzDeliLine.length; i++){
-      sentenceEnd += (i+1);
+      sentence += (i+1);
     }
-    sentence += sentenceEnd;
     console.log(sentence);
     return sentence
   }
