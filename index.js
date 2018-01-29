@@ -8,8 +8,9 @@ function nowServing (katzDeliLine){
   if (katzDeliLine.length === 0){
     return "There is nobody waiting to be served!"
   } else {
-    var next = katzDeliLine.shift();
     //shifts array to the left 1 space, removing first space
+    var next = katzDeliLine.shift();
+
     return `Currently serving ${next}.`;
   }
 }
